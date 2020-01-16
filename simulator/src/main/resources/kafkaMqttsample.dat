@@ -1,0 +1,5 @@
+{"broker":"BPV-TRE-MQD08","hook":"client.connected","timestamp":1539311013245,"clientID":"ae28bfdc-3de5-4ed2-a4d4-a6a4002c19e6"}
+{"broker":"BPV-TRE-MQD08","hook":"session.subscribed","timestamp":1539311013239,"clientID":"480b8dd4-c28c-47cf-a204-983a87c4fad8","topic":"1568741741"}
+{"broker":"BPV-TRE-MQD02","hook":"message.publish","timestamp":1539311013211,"clientID":"512a8ac8-b541-4ea7-b1d3-0e6845276787","topic":"sf-event-osp","payload":{"id":"512a8ac8-b541-4ea7-b1d3-0e6845276787","roadId":"2147392470","lon":128.54883074025133,"lat":35.89315695661454,"speed":74,"speedLimit":50,"level":2,"ts":1539311014603}}
+{"broker":"BPV-TRE-MQD02","hook":"session.unsubscribed","timestamp":1539311013211,"clientID":"5d4cfef7-74a1-49e0-9bac-89a7e16159ac","topic":"1565422460"}
+{"broker":"BPV-TRE-MQD08","hook":"client.disconnected","timestamp":1539311013227,"clientID":"787514b3-45d2-4003-b241-005a04f80ac6"}

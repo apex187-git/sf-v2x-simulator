@@ -1,0 +1,34 @@
+curl http://192.168.203.101:29999/api/vse/warning -H "Content-Type:application/json;charset=utf-8" -d '{
+    "header" : {
+        "interfaceId" : "IF1001",
+        "cnt" : 1
+    },
+    "body" : [
+        {
+            "centerId" : "CT0000000001",
+            "centerName" : "도공",
+            "eventId" : "EI0000111122",
+            "eventType" : 1286,
+            "eventTime" : "20181011231020",
+            "eventLocation" : [
+            {
+                "eventLatitude" : 37.388777,
+                "eventLongitude" : 127.006322,
+                "eventElevation" : 37.758500,
+                "eventHeading" : 126.780000
+            },
+            {
+                "eventLatitude" : 37.388813,
+                "eventLongitude" : 127.006370,
+                "eventElevation" : 37.758500,
+                "eventHeading" : 126.780000
+            },
+            {
+                "eventLatitude" : 37.388836,
+                "eventLongitude" : 127.006429,
+                "eventElevation" : 37.758500,
+                "eventHeading" : 126.780000
+            }]
+        }
+    ]
+}'

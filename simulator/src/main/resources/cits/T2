@@ -1,0 +1,33 @@
+# 갓길 등 정지 차량 경고 서비스
+curl https://smartfleet.sktelecom.com:29999/api/vse/car/stop -H "Content-Type:application/json;charset=utf-8" -d  '{
+    "header":{
+        "interfaceId":"IF1003",
+        "cnt":1
+    },
+    "body":[{
+        "centerId":"CT0000000001",
+        "centerName":"한국 도로 공사",
+        "eventId":"EI1000111134",
+        "eventType":534,
+        "eventTime":"20181011231020",
+        "eventLocation":[
+        {
+            "eventLatitude":37.385486,
+            "eventLongitude":127.102738,
+            "eventElevation":37.758500,
+            "eventHeading":126.780000
+        },
+        {
+            "eventLatitude" : 37.385486,
+            "eventLongitude" : 127.102738,
+            "eventElevation" : 37.758500,
+            "eventHeading" : 126.780000
+        },
+        {
+            "eventLatitude" : 37.385486,
+            "eventLongitude" : 127.102738,
+            "eventElevation" : 37.758500,
+            "eventHeading" : 126.780000
+        }]
+    }]
+}'
